@@ -1,2 +1,2 @@
-ipython>=3.0.0
+ipython>=3.0.0-b1
 future>=0.14.3
