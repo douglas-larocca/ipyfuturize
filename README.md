@@ -14,7 +14,7 @@ A cell magic for [futurize](http://python-future.org/futurize.html) (based on [2
 
 Line arguments are passed directly to the `futurize` script.
 
-Executing `%%futurize?` will show same help info as `!futurize --help`.
+Executing `%%futurize?` will show the same help info as `!futurize --help`.
 
 If you're using a virtual environment it will attempt to find the `futurize` script at `$VIRTUAL_ENV/bin/futurize`, otherwise it assumes the one you want to use is in `$PATH`.
 
