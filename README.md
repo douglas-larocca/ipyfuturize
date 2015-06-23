@@ -37,3 +37,5 @@ and use with
 ```
 %%futurize
 ```
+
+Also see the [demo notebook](demo.ipynb)
