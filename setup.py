@@ -12,8 +12,8 @@ with open('README.md') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    'ipython',
-    'future',
+    'ipython>=3.0.0-b1',
+    'future>=0.14.3',
 ]
 
 setup(
@@ -24,15 +24,8 @@ setup(
     author="Douglas La Rocca",
     author_email='doug@larocca.io',
     url='https://github.com/douglas-larocca/ipyfuturize',
-    packages=[
-        'ipyfuturize',
-    ],
-    package_dir={'ipyfuturize':
-                 'ipyfuturize'},
-    include_package_data=True,
     install_requires=requirements,
     license="MIT",
-    zip_safe=False,
     keywords='futurize 2to3 ipython magic',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -46,4 +39,5 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Framework :: IPython',
     ],
+    py_modules=['ipyfuturize'],
 )
