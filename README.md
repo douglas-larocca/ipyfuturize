@@ -4,11 +4,11 @@ A cell magic for [futurize](http://python-future.org/futurize.html) (based on [2
 
 ## usage & demo
 
-`Ctrl-Enter` overwrites the active cell (`Ctrl-z` will undo)
+<kbd>Ctrl-Enter</kbd> overwrites the active cell (<kbd>Ctrl-z</kbd> will undo)
 
 ![ipyfuturize](demo_inplace.gif)
 
-`Ctrl-Shift-Enter` writes to a new cell
+<kbd>Ctrl-Shift-Enter</kbd> writes to a new cell
 
 ![ipyfuturize](demo_newcell.gif)
 
